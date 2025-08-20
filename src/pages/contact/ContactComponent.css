@@ -1,10 +1,18 @@
 .contact-main {
   width: 100%;
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
 }
 
 .basic-contact {
   margin-left: 5%;
   margin-right: 5%;
+  flex: 1; /* Take up available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the content vertically */
+  transform: translateY(-50px);
 }
 
 .contact-heading-div {
@@ -125,6 +133,11 @@
   display: flex;
   justify-content: center;
   margin-top: 0;
+}
+
+/* Add this to push footer to bottom */
+.contact-footer {
+  margin-top: auto; /* This pushes the footer to the bottom */
 }
 
 @media (max-width: 1380px) {
