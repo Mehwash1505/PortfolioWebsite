@@ -86,7 +86,15 @@
 
 @media (max-width: 637px) and (max-height: 737px) {
   svg {
-    width: 489.6px;  /* 20% smaller */
-    height: 326.4px; /* 20% smaller */
+    width: 490px;   /* 20% smaller */
+    height: 326px;  /* 20% smaller */
+  }
+}
+
+/* Even smaller mobile screens */
+@media (max-width: 400px) {
+  svg {
+    width: 350px;
+    height: 234px;
   }
 }
