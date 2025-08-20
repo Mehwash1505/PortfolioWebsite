@@ -5,8 +5,6 @@ export default class DataScienceImg extends Component {
     const theme = this.props.theme;
     return (
       <svg
-        id="fa973782-3a18-4630-a762-87130b613ac3"
-        data-name="Layer 1"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         width="612"
