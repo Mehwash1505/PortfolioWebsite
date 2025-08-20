@@ -5,6 +5,7 @@ export default class DesignImg extends Component {
     const theme = this.props.theme;
     return (
       <svg
+        id="f0a8f4ba-cc2b-4400-9e08-d246a0bad060"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"
         width="559"
