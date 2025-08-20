@@ -84,3 +84,9 @@
   }
 }
 
+@media (max-width: 637px) and (max-height: 737px) {
+  svg {
+    width: 489.6px;  /* 20% smaller */
+    height: 326.4px; /* 20% smaller */
+  }
+}
