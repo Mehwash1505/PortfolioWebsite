@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: " Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://mehwash-nasir.vercel.app/",
   },
 };
 
