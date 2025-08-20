@@ -84,17 +84,7 @@
   }
 }
 
-@media (max-width: 768px) {
-  svg {
-    width: 400px;
-    height: auto; /* keeps aspect ratio */
-  }
-}
-
-/* Mobile (below 480px) */
-@media (max-width: 480px) {
-  svg {
-    width: 300px;
-    height: auto;
-  }
+svg {
+  max-width: 100%;
+  height: auto;
 }
